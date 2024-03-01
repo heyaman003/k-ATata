@@ -1,0 +1,9 @@
+.carousel {
+  height: 880px !important;
+}
+.carousel-indicators [data-bs-target]{
+  bottom: 140px !important;
+}
+.carousel-indicators [data-bs-target]{
+  bottom: 0%;
+}

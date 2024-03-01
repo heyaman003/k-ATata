@@ -1,0 +1,197 @@
+.people3 {
+  height: 41px;
+  flex: 1;
+  position: relative;
+  letter-spacing: 0.2em;
+  line-height: 25px;
+  text-transform: uppercase;
+  display: inline-block;
+  max-width: 100%;
+}
+.frame-within-awards-stars {
+  width: 808px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0px 0px var(--padding-7xs);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.zero-harm {
+  margin-block-start: 0;
+  margin-block-end: 20px;
+}
+.diversity-inclusion {
+  margin-block-start: 0;
+  margin-block-end: 20px;
+  color: var(--people);
+}
+.sustainable-supply-chain {
+  margin: 0;
+}
+.zero-harm-human-container {
+  height: 212px;
+  flex: 1;
+  position: relative;
+  letter-spacing: 0.2em;
+  line-height: 25px;
+  text-transform: uppercase;
+  display: inline-block;
+  min-width: 345px;
+  max-width: 100%;
+}
+.zero-harm-human-container1 {
+  width: 808px;
+  height: 212px;
+  position: relative;
+  letter-spacing: 0.2em;
+  line-height: 25px;
+  text-transform: uppercase;
+  display: inline-block;
+  flex-shrink: 0;
+  max-width: 169%;
+  z-index: 4;
+}
+.frame-within-environmental-cle {
+  width: 477px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0px 0px 0px 0px;
+  box-sizing: border-box;
+  min-width: 477px;
+  max-width: 100%;
+}
+.telecom-ecosystem-award-for-or {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0px 0px var(--padding-xl);
+  box-sizing: border-box;
+  row-gap: 20px;
+  max-width: 100%;
+  color: var(--tata-grey);
+}
+.instance-child873 {
+  height: 2px;
+  width: 2px;
+  position: relative;
+  min-height: 2px;
+}
+.instance-child913 {
+  height: 2px;
+  width: 2px;
+  position: relative;
+  display: none;
+  min-height: 2px;
+}
+.instance-parent2 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0px var(--padding-11xs) 0px 0px;
+  gap: var(--gap-11xs);
+}
+.header-frame3 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0px var(--padding-4xs);
+}
+.rectangle-child {
+  height: 23px;
+  width: 176px;
+  position: relative;
+  border-radius: var(--br-9xl);
+  background-color: var(--people);
+  display: none;
+}
+.read-more3 {
+  height: 17px;
+  width: 132px;
+  position: relative;
+  letter-spacing: 0.35em;
+  line-height: 16.8px;
+  text-transform: uppercase;
+  display: inline-block;
+  z-index: 1;
+}
+.search-button-icon {
+  width: 5px;
+  height: 10px;
+  position: relative;
+  z-index: 1;
+}
+.search-button-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-11xs) 0px 0px;
+}
+.rectangle1 {
+  border-radius: var(--br-9xl);
+  background-color: var(--people);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-9xs) var(--padding-base) var(--padding-11xs)
+    var(--padding-smi);
+  gap: var(--gap-3xs);
+  font-size: var(--font-size-sm);
+  color: var(--ffffff);
+}
+.vector-arrow {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0px var(--padding-12xs) 0px 0px;
+  box-sizing: border-box;
+  gap: var(--gap-lg);
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-3xl);
+  color: var(--people);
+  font-family: var(--font-gotham);
+}
+
+@media screen and (max-width: 1250px) {
+  .frame-within-environmental-cle {
+    flex: 1;
+  }
+
+  .telecom-ecosystem-award-for-or {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 825px) {
+  .frame-within-environmental-cle {
+    min-width: 100%;
+  }
+}
+@media screen and (max-width: 450px) {
+  .people3 {
+    font-size: var(--font-size-lg);
+    line-height: 20px;
+  }
+
+  .zero-harm-human-container {
+    font-size: var(--font-size-lg);
+    line-height: 20px;
+    min-width: 100%;
+  }
+
+  .zero-harm-human-container1 {
+    font-size: var(--font-size-lg);
+    line-height: 20px;
+  }
+}
